@@ -10,6 +10,7 @@ bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode='HTML'))
 dp = Dispatcher()
 
 # Создаем объекты инлайн-кнопок
+# Создаем объекты инлайн-кнопок
 url_button_1 = InlineKeyboardButton(
     text='Наша страница на Яндекс Картах', url="https://yandex.ru/maps/org/klinika_nuriyevykh/12426919696/reviews/?ll=49.199797%2C55.756041&z=14"
 )
